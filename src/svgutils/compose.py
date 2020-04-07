@@ -364,7 +364,7 @@ class Unit:
     measure : str
         value with unit (for example, '2cm')
     """
-    per_inch = {'px': 90,
+    per_inch = {'px': 96.0,
                 'cm': 2.54,
                 'mm': 25.4,
                 'pt': 72.0
